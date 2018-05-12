@@ -183,5 +183,5 @@ theme: huxblog
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/pq1949/hexo-theme-huxblog
+  repo: https://github.com/pq1949.github.io
   branch: master
