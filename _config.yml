@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Kaijun's Blog
-subtitle: To Be A Lean Developer!
-author: Kaijun Chen
+title: pq1949's Blog
+subtitle: Yestearday You Said Tomorrow!
+author: pq1949
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://kaijun.rocks/hexo-theme-huxblog
-root: /hexo-theme-huxblog/
+url: http://leostudy.top
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -21,7 +21,7 @@ permalink_defaults:
 # Site settings
 SEOTitle: Kaijun的博客 | Kaijun's Blog
 header-img: img/home-bg.jpg
-email: Kaijun.cn@gmail.com
+email: pq1949leo@gmail.com
 description: ""
 keyword: ""
 
