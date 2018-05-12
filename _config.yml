@@ -139,7 +139,7 @@ archive_dir: i_dont_wanna_use_default_archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: README.md
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -183,5 +183,5 @@ theme: huxblog
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/pq1949.github.io
+  repo: https://github.com/pq1949/pq1949.github.io
   branch: master
