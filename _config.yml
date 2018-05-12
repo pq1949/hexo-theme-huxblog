@@ -28,19 +28,19 @@ keyword: ""
 
 # SNS settings
 # RSS: false
-weibo_username:     Demonbane
-zhihu_username:     Demonbane
-github_username:    Kaijun
-twitter_username:   Demonbane_x
-facebook_username:  demonbane.cn
-linkedin_username:  kaijun-chen-42089354
+weibo_username:     1996859477
+#zhihu_username:     pq1949
+github_username:    pq1949
+twitter_username:   pq1949
+facebook_username:  leo.pei.399
+#linkedin_username:  pq1949
 
 # Build settings
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
 
 # Disqus settings
-disqus_username: hexo-theme-huxblog
+disqus_username: leostudy
 
 # Duoshuo settings
 # duoshuo_username: kaijun
@@ -50,16 +50,16 @@ duoshuo_share: true                     # set to false if you want to use Commen
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+ba_track_id: e9197aff7e56f9bbffe6145a7e7b3ce6
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+ga_track_id: 'UA-119113917-1'            # Format: UA-xxxxxx-xx
+ga_domain: leostudy.top
 
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "我要成为魔法师!"
-sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "又是新的一天!"
+sidebar-avatar: img/avatar.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 # Featured Tags
@@ -70,23 +70,59 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
-        title: "Kaijun's Blog",
-        href: "http://blog.kaijun.rocks"
+        title: "阮一峰",
+        href: "http://www.ruanyifeng.com/"
     },{
         title: "Hux Blog",
         href: "http://huangxuan.me"
     },{
-        title: "Foo",
-        href: "#"
+        title: "张鑫旭",
+        href: "http://www.zhangxinxu.com/"
     },{
-        title: "Bar",
-        href: "#"
+        title: "朴灵",
+        href: "http://html5ify.com/"
     },{
-        title: "Example Friends",
-        href: "#"
+        title: "小胡子哥",
+        href: "https://www.barretlee.com/entry/"
     },{
-        title: "It helps SEO",
-        href: "#"
+        title: "Tom大叔",
+        href: "http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html"
+    },{
+        title: "前端美",
+        href: "https://www.qianduanmei.com/"
+    },{
+        title: "淘宝前端团队",
+        href: "http://taobaofed.org/"
+    },{
+        title: "腾讯前端团队",
+        href: "http://www.alloyteam.com/"
+    },{
+        title: "百度前端团队",
+        href: "http://fex.baidu.com/"
+    },{
+        title: "360前端团队",
+        href: "ttps://75team.com/"
+    },{
+        title: "大搜车前端团队",
+        href: "http://f2e.souche.com/blog/"
+    },{
+        title: "前端外刊评论",
+        href: "https://zhuanlan.zhihu.com/FrontendMagazine"
+    },{
+        title: "掘金",
+        href: "https://juejin.im/"
+    },{
+        title: "新浪前端团队",
+        href: "http://ued.sina.com.cn/?cat=4"
+    },{
+        title: "会编程的猪",
+        href: "http://yincheng.site/"
+    },{
+        title: "京东设计中心",
+        href: "http://jdc.jd.com/"
+    },{
+        title: "前端博客GitHub整理",
+        href: "https://github.com/foru17/front-end-collect"
     }
 ]
 
