@@ -43,3 +43,16 @@ hexo clean && hexo deploy // hexo will push the static files automatically into 
 
 ##### 4.Enjoy! 
 Please [**Star**](https://github.com/kaijun/hexo-theme-huxblog/stargazers) this Project if you like it! [**Following**](https://github.com/Kaijun) would also be appreciated!
+
+
+#### 5. New Computer To Deploy?
+
+```
+git clone https://github.com/pq1949/hexo-theme-huxblog.git
+npm install hexo-cli -g
+npm install
+
+sh new_post.sh  "new article" // 添加新文章
+
+sh deploy.sh //清空public文件夹 编译新文章到public文件夹 复制public文件夹内容到.deploy 文件夹 并提交到pq1949.github.io仓库 最后在把博客源文件提交到hexo-theme-huxblog仓库
+```
