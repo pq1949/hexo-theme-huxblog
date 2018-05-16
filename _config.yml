@@ -1,6 +1,8 @@
 # Hexo Configuration
 ## Docs: https://hexo.io/docs/configuration.html
 ## Source: https://github.com/hexojs/hexo/
+marked:
+ gfm: true
 
 # Site
 title: pq1949's Blog
