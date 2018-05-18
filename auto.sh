@@ -1,10 +1,12 @@
 
 while ((1));do
    now=`date +"%H%M%S"`
-   if [ $now = "020515" ];then
-     echo "==============start============" >> log.md
-     sh deploy.sh  >> log.md
-     echo "==============end============" >> log.md
+   if [ $now = "021215" ];then
+     echo "==============start============"
+     date
+     sh deploy.sh 
+     date 
+     echo "================end============" 
    fi
     #echo $now 
     sleep 1
