@@ -1,0 +1,16 @@
+(node:23687) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
+(node:23697) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
+(node:23709) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
+Everything up-to-date
+warning: You ran 'git add' with neither '-A (--all)' or '--ignore-removal',
+whose behaviour will change in Git 2.0 with respect to paths you removed.
+Paths like 'auto_deploy.sh' that are
+removed from your working tree are ignored with this version of Git.
+
+* 'git add --ignore-removal <pathspec>', which is the current default,
+  ignores paths you removed from your working tree.
+
+* 'git add --all <pathspec>' will let you also record the removals.
+
+Run 'git status' to check the paths you removed from your working tree.
+

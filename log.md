@@ -3,7 +3,7 @@ Already up-to-date.
 INFO  Deleted database.
 INFO  Deleted public folder.
 INFO  Start processing
-INFO  Files loaded in 1.19 s
+INFO  Files loaded in 1.15 s
 INFO  Generated: 404.html
 INFO  Generated: index.html
 INFO  Generated: CNAME
@@ -81,12 +81,12 @@ INFO  Generated: 2017/10/22/ubuntu固定IP地址/index.html
 INFO  Generated: 2017/10/21/使用hexo和github搭建个人博客简明教程/index.html
 INFO  Generated: 2018/03/22/text-intent的缩进样式导致图片不居中的解决办法/index.html
 INFO  Generated: 2018/03/22/巧妙隐藏firefox滚动条/index.html
-INFO  Generated: 2018/05/16/my-learning-plan/my-learning-plan.jpg
-INFO  Generated: 2014/01/29/hello-2015/post-bg-2015.jpg
 INFO  Generated: 2014/09/22/js-version/javascript-java.jpg
 INFO  Generated: 2013/05/25/js-module-loader/post-bg-js-module.jpg
 INFO  Generated: 2015/04/14/unix-linux-note/index.html
 INFO  Generated: js/bootstrap.js
+INFO  Generated: 2018/05/16/my-learning-plan/my-learning-plan.jpg
+INFO  Generated: 2014/01/29/hello-2015/post-bg-2015.jpg
 INFO  Generated: 2014/09/22/js-version/keep-calm-and-learn-javascript.png
 INFO  Generated: 2014/09/22/js-version/post-bg-js-version.jpg
 INFO  Generated: 2017/10/21/使用hexo和github搭建个人博客简明教程/hexo.jpg
@@ -94,7 +94,7 @@ INFO  Generated: js/jquery.min.js
 INFO  Generated: css/bootstrap.min.css
 INFO  Generated: css/bootstrap.css
 INFO  Generated: js/jquery.js
-INFO  90 files generated in 532 ms
+INFO  90 files generated in 520 ms
 INFO  Deploying: git
 INFO  Clearing .deploy_git folder...
 INFO  Copying files from public folder...
@@ -107,13 +107,15 @@ INFO  Deploy done: git
 #   (use "git add/rm <file>..." to update what will be committed)
 #   (use "git checkout -- <file>..." to discard changes in working directory)
 #
+#	modified:   .gitignore
 #	modified:   auto.sh
 #	deleted:    auto_deploy.sh
+#	modified:   log.md
+#	deleted:    nohup.out
 #	deleted:    update.md
 #
 # Untracked files:
 #   (use "git add <file>..." to include in what will be committed)
 #
-#	log.md
-#	nohup.out
+#	log.txt
 no changes added to commit (use "git add" and/or "git commit -a")
