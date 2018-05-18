@@ -5,7 +5,7 @@ hexo g
 hexo d
 
 git status
-git add .
+git add --all
 git commit -m "new"
 git push
 git status
