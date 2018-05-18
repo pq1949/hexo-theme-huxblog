@@ -119,3 +119,19 @@ INFO  Deploy done: git
 #
 #	log.txt
 no changes added to commit (use "git add" and/or "git commit -a")
+[master 087c260] new
+ 4 files changed, 27 insertions(+), 8 deletions(-)
+ create mode 100644 log.txt
+# On branch master
+# Changes not staged for commit:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	deleted:    auto_deploy.sh
+#	modified:   log.md
+#	modified:   log.txt
+#	deleted:    nohup.out
+#	deleted:    update.md
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+==============end============
