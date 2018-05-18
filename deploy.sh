@@ -1,3 +1,4 @@
+date > /home/leo/gitRepo/hexo-theme-huxblog/update.md
 git pull
 
 hexo clean
@@ -9,3 +10,4 @@ git add .
 git commit -m "new"
 git push
 git status
+
