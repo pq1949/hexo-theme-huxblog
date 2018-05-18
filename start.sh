@@ -1,1 +1,1 @@
-nohup sh auto.sh >> log.txt &
+nohup sh auto.sh > log.txt &
