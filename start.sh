@@ -1,1 +1,1 @@
-nohup sh auto.sh >> time.txt &
+nohup sh auto.sh >>./source/time.md &
