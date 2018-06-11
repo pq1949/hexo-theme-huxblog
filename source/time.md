@@ -3066,3 +3066,31 @@ INFO  Deploy done: git
 #	modified:   source/time.md
 #
 no changes added to commit (use "git add" and/or "git commit -a")
+[master d07b9e0] new
+ 1 file changed, 147 insertions(+)
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+To git@github.com:pq1949/hexo-theme-huxblog.git
+   1cf0e4d..d07b9e0  master -> master
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   source/time.md
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+Mon Jun 11 01:58:52 CST 2018
+================end============
