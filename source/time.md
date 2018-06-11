@@ -3094,3 +3094,143 @@ To git@github.com:pq1949/hexo-theme-huxblog.git
 no changes added to commit (use "git add" and/or "git commit -a")
 Mon Jun 11 01:58:52 CST 2018
 ================end============
+==============start============
+Tue Jun 12 01:58:15 CST 2018
+From github.com:pq1949/hexo-theme-huxblog
+   0011ab6..95005ac  master     -> origin/master
+Updating 0011ab6..95005ac
+Fast-forward
+ ...firefox\346\273\232\345\212\250\346\235\241.md" | 108 +++++++++++++++++++++
+ .../raws/test.html"                                |  32 ------
+ .../raws/test2.html"                               |  53 ----------
+ .../roll.jpg"                                      | Bin 0 -> 496347 bytes
+ ...firefox\346\273\232\345\212\250\346\235\241.md" |  95 ------------------
+ 5 files changed, 108 insertions(+), 180 deletions(-)
+ create mode 100644 "source/_posts/\345\267\247\345\246\231\351\232\220\350\227\217firefox\346\273\232\345\212\250\346\235\241.md"
+ delete mode 100644 "source/_posts/\345\267\247\345\246\231\351\232\220\350\227\217firefox\346\273\232\345\212\250\346\235\241/raws/test.html"
+ delete mode 100644 "source/_posts/\345\267\247\345\246\231\351\232\220\350\227\217firefox\346\273\232\345\212\250\346\235\241/raws/test2.html"
+ create mode 100644 "source/_posts/\345\267\247\345\246\231\351\232\220\350\227\217firefox\346\273\232\345\212\250\346\235\241/roll.jpg"
+ delete mode 100644 "source/_posts/\345\267\247\345\246\231\351\232\220\350\227\217firefox\346\273\232\345\212\250\346\235\241/\345\267\247\345\246\231\351\232\220\350\227\217firefox\346\273\232\345\212\250\346\235\241.md"
+(node:16351) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
+INFO  Deleted database.
+INFO  Deleted public folder.
+(node:16361) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
+INFO  Start processing
+INFO  Files loaded in 1.38 s
+INFO  Generated: 404.html
+INFO  Generated: time.html
+INFO  Generated: index.html
+INFO  Generated: CNAME
+INFO  Generated: README.md
+INFO  Generated: i_dont_wanna_use_default_archives/index.html
+INFO  Generated: archives/index.html
+INFO  Generated: tags/index.html
+INFO  Generated: about/index.html
+INFO  Generated: img/avatar.jpg
+INFO  Generated: img/404-bg.jpg
+INFO  Generated: img/home-bg-o.jpg
+INFO  Generated: img/avatar_old.jpg
+INFO  Generated: img/favicon.ico
+INFO  Generated: fonts/glyphicons-halflings-regular.eot
+INFO  Generated: img/home-bg.jpg
+INFO  Generated: img/icon_wechat.png
+INFO  Generated: fonts/glyphicons-halflings-regular.ttf
+INFO  Generated: fonts/glyphicons-halflings-regular.woff
+INFO  Generated: fonts/glyphicons-halflings-regular.woff2
+INFO  Generated: i_dont_wanna_use_default_archives/page/2/index.html
+INFO  Generated: i_dont_wanna_use_default_archives/2013/05/index.html
+INFO  Generated: i_dont_wanna_use_default_archives/2014/01/index.html
+INFO  Generated: i_dont_wanna_use_default_archives/2015/04/index.html
+INFO  Generated: i_dont_wanna_use_default_archives/2017/10/index.html
+INFO  Generated: i_dont_wanna_use_default_archives/2018/03/index.html
+INFO  Generated: categories/笔记/index.html
+INFO  Generated: page/2/index.html
+INFO  Generated: css/highlight.css
+INFO  Generated: js/hux-blog.js
+INFO  Generated: i_dont_wanna_use_default_archives/2014/09/index.html
+INFO  Generated: i_dont_wanna_use_default_archives/2015/07/index.html
+INFO  Generated: i_dont_wanna_use_default_archives/2018/05/index.html
+INFO  Generated: i_dont_wanna_use_default_archives/2018/06/index.html
+INFO  Generated: tags/生活/index.html
+INFO  Generated: tags/前端开发/index.html
+INFO  Generated: tags/JavaScript/index.html
+INFO  Generated: tags/翻译/index.html
+INFO  Generated: tags/python/index.html
+INFO  Generated: tags/anaconda/index.html
+INFO  Generated: tags/pycharm/index.html
+INFO  Generated: tags/ubuntu/index.html
+INFO  Generated: tags/ip/index.html
+INFO  Generated: tags/CSS/index.html
+INFO  Generated: tags/感悟/index.html
+INFO  Generated: tags/OS/index.html
+INFO  Generated: tags/Unix/index.html
+INFO  Generated: tags/Linux/index.html
+INFO  Generated: tags/教程/index.html
+INFO  Generated: tags/hexo/index.html
+INFO  Generated: tags/github/index.html
+INFO  Generated: img/tag-bg.jpg
+INFO  Generated: fonts/glyphicons-halflings-regular.svg
+INFO  Generated: js/hux-blog.min.js
+INFO  Generated: js/jquery.nav.js
+INFO  Generated: js/jquery.tagcloud.js
+INFO  Generated: i_dont_wanna_use_default_archives/2013/index.html
+INFO  Generated: i_dont_wanna_use_default_archives/2014/index.html
+INFO  Generated: i_dont_wanna_use_default_archives/2015/index.html
+INFO  Generated: i_dont_wanna_use_default_archives/2017/index.html
+INFO  Generated: i_dont_wanna_use_default_archives/2018/index.html
+INFO  Generated: js/bootstrap.min.js
+INFO  Generated: css/hux-blog.css
+INFO  Generated: css/hux-blog.min.css
+INFO  Generated: 2018/06/10/巧妙隐藏firefox滚动条/index.html
+INFO  Generated: 2017/10/28/python开发环境安装记录/index.html
+INFO  Generated: 2015/07/09/js-module-7day/index.html
+INFO  Generated: 2014/09/22/js-version/index.html
+INFO  Generated: 2013/05/25/js-module-loader/index.html
+INFO  Generated: 2015/04/14/unix-linux-note/post-bg-unix-linux.jpg
+INFO  Generated: 2018/05/16/my-learning-plan/index.html
+INFO  Generated: 2018/03/22/git-flow和gerrit使用总结/index.html
+INFO  Generated: 2014/01/29/hello-2015/index.html
+INFO  Generated: 2018/05/11/JS常见问题汇总/index.html
+INFO  Generated: 2018/05/10/日常心得/index.html
+INFO  Generated: 2017/10/22/ubuntu固定IP地址/index.html
+INFO  Generated: 2017/10/21/使用hexo和github搭建个人博客简明教程/index.html
+INFO  Generated: 2018/03/22/text-intent的缩进样式导致图片不居中的解决办法/index.html
+INFO  Generated: 2014/09/22/js-version/javascript-java.jpg
+INFO  Generated: 2013/05/25/js-module-loader/post-bg-js-module.jpg
+INFO  Generated: 2015/04/14/unix-linux-note/index.html
+INFO  Generated: js/bootstrap.js
+INFO  Generated: img/contact-bg.jpg
+INFO  Generated: 2014/01/29/hello-2015/post-bg-2015.jpg
+INFO  Generated: 2014/09/22/js-version/keep-calm-and-learn-javascript.png
+INFO  Generated: 2014/09/22/js-version/post-bg-js-version.jpg
+INFO  Generated: img/about-bg.jpg
+INFO  Generated: 2018/06/10/巧妙隐藏firefox滚动条/roll.jpg
+INFO  Generated: 2018/05/16/my-learning-plan/my-learning-plan.jpg
+INFO  Generated: 2017/10/21/使用hexo和github搭建个人博客简明教程/hexo.jpg
+INFO  Generated: js/jquery.min.js
+INFO  Generated: css/bootstrap.min.css
+INFO  Generated: css/bootstrap.css
+INFO  Generated: js/jquery.js
+INFO  94 files generated in 495 ms
+(node:16373) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
+INFO  Deploying: git
+INFO  Clearing .deploy_git folder...
+INFO  Copying files from public folder...
+[master 20a65e6] Site updated: 2018-06-12 01:58:34
+ 10 files changed, 93 insertions(+), 1360 deletions(-)
+ rename "2018/06/10/\345\267\247\345\246\231\351\232\220\350\227\217firefox\346\273\232\345\212\250\346\235\241/\345\267\247\345\246\231\351\232\220\350\227\217firefox\346\273\232\345\212\250\346\235\241/index.html" => "2018/06/10/\345\267\247\345\246\231\351\232\220\350\227\217firefox\346\273\232\345\212\250\346\235\241/index.html" (77%)
+ create mode 100644 "2018/06/10/\345\267\247\345\246\231\351\232\220\350\227\217firefox\346\273\232\345\212\250\346\235\241/roll.jpg"
+ delete mode 100644 "2018/06/11/\345\267\247\345\246\231\351\232\220\350\227\217firefox\346\273\232\345\212\250\346\235\241/raws/test/index.html"
+ delete mode 100644 "2018/06/11/\345\267\247\345\246\231\351\232\220\350\227\217firefox\346\273\232\345\212\250\346\235\241/raws/test2/index.html"
+To git@github.com:pq1949/pq1949.github.io.git
+   a5e60ee..20a65e6  HEAD -> master
+Branch master set up to track remote branch master from git@github.com:pq1949/pq1949.github.io.git.
+INFO  Deploy done: git
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   source/time.md
+#
+no changes added to commit (use "git add" and/or "git commit -a")
