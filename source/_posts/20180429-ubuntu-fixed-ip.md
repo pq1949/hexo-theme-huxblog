@@ -1,6 +1,6 @@
 ---
 title: ubuntu固定IP地址
-date: 2017-10-22 20:58:44
+date: 2018-04-29 20:58:44
 categories: 笔记
 tags: [ubuntu,ip]
 ---

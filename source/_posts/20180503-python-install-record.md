@@ -1,6 +1,6 @@
 ---
 title: python开发环境安装记录
-date: 2017-10-28 19:07:07
+date: 2018-05-03 19:07:07
 categories: 笔记
 tags: [python,anaconda,pycharm]
 ---
