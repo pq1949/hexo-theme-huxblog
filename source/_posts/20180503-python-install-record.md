@@ -3,6 +3,7 @@ title: python开发环境安装记录
 date: 2018-05-03 19:07:07
 categories: 笔记
 tags: [python,anaconda,pycharm]
+header-img: post-bg-2015.jpg
 ---
 
 第一个安装 anaconda ，去[官网](https://www.anaconda.com/download/)下载，我安装的时候是5.0.1版本，

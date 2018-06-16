@@ -2,6 +2,7 @@
 title: ubuntu固定IP地址
 date: 2018-04-29 20:58:44
 categories: 笔记
+header-img: post-bg-unix-linux.jpg
 tags: [ubuntu,ip]
 ---
 ```chef
