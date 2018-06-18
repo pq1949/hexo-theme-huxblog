@@ -73,3 +73,8 @@ function getIPAdress () {
  console.log(getIPAdress())
 
 ```
+
+# 文件选择框最大文件个数
+
+在使用文件个数选择框的时候文件个数超过限制的时候会出现无响应的的现象，可以打开百度网盘文件选择框同时选中大概1000个文件，会出现无反应的现象，这个是浏览器自己限制的
+原因可以看[这里](https://stackoverflow.com/questions/15851751/what-is-the-max-number-of-files-to-select-in-an-html5-multiple-file-input)，chrome大概支持的文件长度是32k

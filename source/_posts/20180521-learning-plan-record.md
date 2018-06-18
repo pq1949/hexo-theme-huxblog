@@ -9,7 +9,7 @@ tags:
 ---
 > 记录几个博客文章
 >  照着上面的学
-- <input type='checkbox' onclick='return false;' checked >&nbsp;&nbsp;[brickspert](https://github.com/brickspert/blog)
+- <input type='checkbox' onclick='return false;'>&nbsp;&nbsp;[brickspert](https://github.com/brickspert/blog)
 - <input type='checkbox' onclick='return false;'>&nbsp;&nbsp;[毕业一年左右的前端妹子面经总结](https://mp.weixin.qq.com/s/TvC-GySQ-Bsbi3heCqH8QQ)
 - <input type='checkbox' onclick='return false;'>&nbsp;&nbsp;[50道CSS基础面试题](https://mp.weixin.qq.com/s?__biz=MzAxODE2MjM1MA==&mid=2651553830&idx=1&sn=e0acf2786bebb9173d16482f14dfe63c&chksm=802557e7b752def1cbfada14b270cae7c2f51f545b54195ad7d200597dd3bcbdd8ecc8c83664&mpshare=1&scene=1&srcid=0318FULSXXO2MLK6XJngJdzZ&pass_ticket=3eQb%2B0xiVSDwinTFVYOC%2FFvMqb3vC3N5L9uDgJTDTXg%3D#rd)
 - <input type='checkbox' onclick='return false;'>&nbsp;&nbsp;[我的 Web 前端面试经历——百度](https://mp.weixin.qq.com/s?__biz=MjM5NTY1MjY0MQ==&mid=2650740099&idx=3&sn=52cc080464a7fd04bbb73a9a095052a0&chksm=befe80cd898909db7a48eb8893a94faa035d9681a37c643063c4457f56a5922be555029bcb02&mpshare=1&scene=1&srcid=0203ix6mnSPFZEqZavDbRYSJ&pass_ticket=3eQb%2B0xiVSDwinTFVYOC%2FFvMqb3vC3N5L9uDgJTDTXg%3D#rd)
