@@ -4097,3 +4097,200 @@ INFO  Deploy done: git
 #	modified:   source/time.md
 #
 no changes added to commit (use "git add" and/or "git commit -a")
+[master 3fb2356] new
+ 1 file changed, 104 insertions(+)
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+To git@github.com:pq1949/hexo-theme-huxblog.git
+   3959c55..3fb2356  master -> master
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   source/time.md
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+Mon Jun 18 01:58:47 CST 2018
+================end============
+==============start============
+Tue Jun 19 01:58:15 CST 2018
+From github.com:pq1949/hexo-theme-huxblog
+   3fb2356..83e5a4f  master     -> origin/master
+Updating 3fb2356..83e5a4f
+Fast-forward
+ ...260\203\350\257\225\345\267\245\345\205\267.md" |   9 ++++
+ ...207\215\346\224\276\346\224\273\345\207\273.md" |  14 ++++++
+ .../_posts/20180512-git-and-git-flow-and-gerrit.md |  47 ++++++++++++++++++-
+ .../git-flow.png                                   | Bin 0 -> 38167 bytes
+ .../20180517-js-common-prolem-record-updating.md   |   6 +++
+ source/_posts/20180521-learning-plan-record.md     |   2 +-
+ .../20180528-text-intent-css-image-center.md       |   9 +++-
+ source/_posts/20180607-hide-firefox-scroll.md      |   1 -
+ source/_posts/20180610-delete-cloud-icon.md        |  13 ++++++
+ source/_posts/20180610-delete-cloud-icon/cloud.png | Bin 0 -> 55019 bytes
+ .../_posts/20180610-delete-cloud-icon/regedit.png  | Bin 0 -> 41510 bytes
+ source/_posts/20180615-css-performance.md          |  50 +++++++++++++++++++++
+ source/_posts/20180615-css-performance/1.png       | Bin 0 -> 30954 bytes
+ source/_posts/20180615-css-performance/2.png       | Bin 0 -> 28992 bytes
+ source/_posts/20180615-css-performance/3.png       | Bin 0 -> 136227 bytes
+ source/_posts/20180615-css-performance/4.png       | Bin 0 -> 40202 bytes
+ source/_posts/20180615-css-performance/5.png       | Bin 0 -> 46845 bytes
+ source/_posts/20180615-css-performance/6.png       | Bin 0 -> 8485 bytes
+ source/_posts/20180615-css-performance/7.png       | Bin 0 -> 11692 bytes
+ source/_posts/20180615-css-performance/8.png       | Bin 0 -> 10882 bytes
+ 20 files changed, 147 insertions(+), 4 deletions(-)
+ create mode 100644 "source/_drafts/ios \350\260\203\350\257\225\345\267\245\345\205\267.md"
+ create mode 100644 "source/_drafts/\351\207\215\346\224\276\346\224\273\345\207\273.md"
+ create mode 100644 source/_posts/20180512-git-and-git-flow-and-gerrit/git-flow.png
+ create mode 100644 source/_posts/20180610-delete-cloud-icon.md
+ create mode 100644 source/_posts/20180610-delete-cloud-icon/cloud.png
+ create mode 100644 source/_posts/20180610-delete-cloud-icon/regedit.png
+ create mode 100644 source/_posts/20180615-css-performance.md
+ create mode 100644 source/_posts/20180615-css-performance/1.png
+ create mode 100644 source/_posts/20180615-css-performance/2.png
+ create mode 100644 source/_posts/20180615-css-performance/3.png
+ create mode 100644 source/_posts/20180615-css-performance/4.png
+ create mode 100644 source/_posts/20180615-css-performance/5.png
+ create mode 100644 source/_posts/20180615-css-performance/6.png
+ create mode 100644 source/_posts/20180615-css-performance/7.png
+ create mode 100644 source/_posts/20180615-css-performance/8.png
+(node:6098) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
+INFO  Deleted database.
+INFO  Deleted public folder.
+(node:6108) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
+INFO  Start processing
+INFO  Files loaded in 1.5 s
+INFO  Generated: 404.html
+INFO  Generated: time.html
+INFO  Generated: index.html
+INFO  Generated: CNAME
+INFO  Generated: README.md
+INFO  Generated: archives/index.html
+INFO  Generated: tags/index.html
+INFO  Generated: about/index.html
+INFO  Generated: demo/20180607-hide-firefox-scroll/test.html
+INFO  Generated: img/avatar.jpg
+INFO  Generated: fonts/glyphicons-halflings-regular.eot
+INFO  Generated: img/home-bg.jpg
+INFO  Generated: img/avatar_old.jpg
+INFO  Generated: img/favicon.ico
+INFO  Generated: img/icon_wechat.png
+INFO  Generated: fonts/glyphicons-halflings-regular.ttf
+INFO  Generated: fonts/glyphicons-halflings-regular.woff
+INFO  Generated: fonts/glyphicons-halflings-regular.woff2
+INFO  Generated: archives/2018/04/index.html
+INFO  Generated: categories/笔记/index.html
+INFO  Generated: article/20180615-css-performance/index.html
+INFO  Generated: article/20180610-delete-cloud-icon/cloud.png
+INFO  Generated: article/20180517-js-common-prolem-record-updating/keep-calm-and-learn-javascript.png
+INFO  Generated: article/20180512-git-and-git-flow-and-gerrit/git-flow.png
+INFO  Generated: css/highlight.css
+INFO  Generated: js/hux-blog.js
+INFO  Generated: archives/2018/05/index.html
+INFO  Generated: archives/2018/06/index.html
+INFO  Generated: tags/前端开发/index.html
+INFO  Generated: tags/ubuntu/index.html
+INFO  Generated: tags/ip/index.html
+INFO  Generated: tags/python/index.html
+INFO  Generated: tags/anaconda/index.html
+INFO  Generated: tags/pycharm/index.html
+INFO  Generated: tags/javascript/index.html
+INFO  Generated: tags/CSS/index.html
+INFO  Generated: tags/教程/index.html
+INFO  Generated: tags/hexo/index.html
+INFO  Generated: tags/github/index.html
+INFO  Generated: tags/git/index.html
+INFO  Generated: tags/git-flow/index.html
+INFO  Generated: tags/gerrit/index.html
+INFO  Generated: tags/sourcetree/index.html
+INFO  Generated: article/20180607-hide-firefox-scroll/index.html
+INFO  Generated: article/20180528-text-intent-css-image-center/index.html
+INFO  Generated: article/20180521-learning-plan-record/index.html
+INFO  Generated: article/20180503-python-install-record/index.html
+INFO  Generated: article/20180429-ubuntu-fixed-ip/index.html
+INFO  Generated: article/20180421-how-to-use-hexo/index.html
+INFO  Generated: article/20180503-python-install-record/post-bg-2015.jpg
+INFO  Generated: img/contact-bg.jpg
+INFO  Generated: article/20180610-delete-cloud-icon/regedit.png
+INFO  Generated: article/20180517-js-common-prolem-record-updating/post-bg-js-version.jpg
+INFO  Generated: article/20180615-css-performance/1.png
+INFO  Generated: article/20180615-css-performance/2.png
+INFO  Generated: article/20180615-css-performance/4.png
+INFO  Generated: article/20180615-css-performance/5.png
+INFO  Generated: article/20180615-css-performance/6.png
+INFO  Generated: article/20180615-css-performance/7.png
+INFO  Generated: article/20180615-css-performance/8.png
+INFO  Generated: article/20180512-git-and-git-flow-and-gerrit/git.png
+INFO  Generated: img/tag-bg.jpg
+INFO  Generated: fonts/glyphicons-halflings-regular.svg
+INFO  Generated: js/hux-blog.min.js
+INFO  Generated: js/jquery.nav.js
+INFO  Generated: js/jquery.tagcloud.js
+INFO  Generated: demo/20180607-hide-firefox-scroll/test2.html
+INFO  Generated: archives/2018/index.html
+INFO  Generated: article/20180610-delete-cloud-icon/index.html
+INFO  Generated: article/20180517-js-common-prolem-record-updating/index.html
+INFO  Generated: article/20180512-git-and-git-flow-and-gerrit/index.html
+INFO  Generated: article/20180521-learning-plan-record/my-learning-plan.jpg
+INFO  Generated: js/bootstrap.min.js
+INFO  Generated: article/20180429-ubuntu-fixed-ip/post-bg-unix-linux.jpg
+INFO  Generated: article/20180517-js-common-prolem-record-updating/javascript-java.jpg
+INFO  Generated: article/20180512-git-and-git-flow-and-gerrit/post-bg-js-module.jpg
+INFO  Generated: img/404-bg.jpg
+INFO  Generated: img/home-bg-o.jpg
+INFO  Generated: article/20180615-css-performance/3.png
+INFO  Generated: css/hux-blog.css
+INFO  Generated: css/hux-blog.min.css
+INFO  Generated: img/about-bg.jpg
+INFO  Generated: article/20180607-hide-firefox-scroll/roll.jpg
+INFO  Generated: js/bootstrap.js
+INFO  Generated: article/20180421-how-to-use-hexo/hexo.jpg
+INFO  Generated: js/jquery.min.js
+INFO  Generated: css/bootstrap.min.css
+INFO  Generated: css/bootstrap.css
+INFO  Generated: js/jquery.js
+INFO  89 files generated in 501 ms
+(node:6127) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
+INFO  Deploying: git
+INFO  Clearing .deploy_git folder...
+INFO  Copying files from public folder...
+[master 8deb783] Site updated: 2018-06-19 01:58:29
+ 22 files changed, 1481 insertions(+), 19 deletions(-)
+ create mode 100644 article/20180512-git-and-git-flow-and-gerrit/git-flow.png
+ create mode 100644 article/20180610-delete-cloud-icon/cloud.png
+ create mode 100644 article/20180610-delete-cloud-icon/index.html
+ create mode 100644 article/20180610-delete-cloud-icon/regedit.png
+ create mode 100644 article/20180615-css-performance/1.png
+ create mode 100644 article/20180615-css-performance/2.png
+ create mode 100644 article/20180615-css-performance/3.png
+ create mode 100644 article/20180615-css-performance/4.png
+ create mode 100644 article/20180615-css-performance/5.png
+ create mode 100644 article/20180615-css-performance/6.png
+ create mode 100644 article/20180615-css-performance/7.png
+ create mode 100644 article/20180615-css-performance/8.png
+ create mode 100644 article/20180615-css-performance/index.html
+To git@github.com:pq1949/pq1949.github.io.git
+   e2d46f1..8deb783  HEAD -> master
+Branch master set up to track remote branch master from git@github.com:pq1949/pq1949.github.io.git.
+INFO  Deploy done: git
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   source/time.md
+#
+no changes added to commit (use "git add" and/or "git commit -a")
