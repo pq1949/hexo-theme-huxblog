@@ -4,7 +4,6 @@ title:      巧妙隐藏firefox滚动条
 date:       2018-06-07 22:15:11
 header-img: roll.jpg
 catalog:    true
-author:     leo
 tags:
     - 前端开发
     - CSS

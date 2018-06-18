@@ -1,6 +1,7 @@
 ---
 title: JS常见问题汇总
 date: 2018-05-17 14:58:36
+catalog: true
 header-img: post-bg-js-version.jpg
 categories: 笔记
 tags: [javascript]

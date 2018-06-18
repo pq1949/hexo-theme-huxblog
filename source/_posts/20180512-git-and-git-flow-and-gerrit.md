@@ -2,6 +2,7 @@
 title: git-flow和gerrit使用总结
 date: 2018-05-12 23:11:46
 categories: 笔记
+catalog: true
 header-img: post-bg-js-module.jpg
 tags: [git,git-flow,gerrit,sourcetree]
 ---
@@ -19,8 +20,52 @@ tags: [git,git-flow,gerrit,sourcetree]
 
 # git-flow 简介
 
-# gerrit 简介
+![git-flow](git-flow.png)
+ git鼓励开发者多利用分支进行开发，但是如何更加规范的创建和管理分支是需要开发团队提前约定好的，git-flow就是做这个事情的，按照git-flow打开发流程能够很好的协调好团队的开发流程，大家都遵守这个流程的话互相配合起来就会更加高效不容易出错了。
+ 具体可以参考下面的[文章](https://www.cnblogs.com/lcngu/p/5770288.html)
 
+ 摘抄一些命令如下
+ ```bash
+ # 初始化
+ git flow init
+
+ # 开始新Feature
+ git flow feature start MYFEATURE
+
+ # Publish一个Feature(也就是push到远程)
+ git flow feature publish MYFEATURE
+
+ # 获取Publish的Feature
+ git flow feature pull origin MYFEATURE
+
+ # 完成一个Feature
+ git flow feature finish MYFEATURE
+
+ # 开始一个Release
+ git flow release start RELEASE [BASE]
+
+ # Publish一个Release
+ git flow release publish RELEASE
+
+ # 发布Release
+ git flow release finish RELEASE
+ git push --tags
+
+ # 开始一个Hotfix
+ git flow hotfix start VERSION [BASENAME]
+
+ # 发布一个Hotfix
+ git flow hotfix finish VERSION
+ 
+ ```
+
+
+
+
+# gerrit 简介
+gerrit 是一个用来做code review的工具，对于开发团队来说CR也是非常重要的，比如线上改动的bug，如果需要进行CR的话可以很方便的在gerrit上进行，gerrit其实和私有的git服务器很类似，需要搭建一个gerrit服务器，每次check out 代码直接在gerrit上进行，然后提交代码也到gerrit上，gerrit会自动把自己的代码同步到绑定的git上去，前提是和gerrit和git上没有冲突，冲突出现的原因一般是有人不按照规范直接把代码提交打git上去了。
+gerrit具体搭建过程可以在网上搜一下，很多。
+[gerrit搭建](https://blog.csdn.net/tq08g2z/article/details/78627653)
  # git常用命令
 
 ![git-work-flow](git.png)
