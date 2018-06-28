@@ -5599,3 +5599,148 @@ INFO  Deploy done: git
 #	modified:   source/time.md
 #
 no changes added to commit (use "git add" and/or "git commit -a")
+[master 01dccbf] new
+ 1 file changed, 145 insertions(+)
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+To git@github.com:pq1949/hexo-theme-huxblog.git
+   e733023..01dccbf  master -> master
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   source/time.md
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+Thu Jun 28 01:58:52 CST 2018
+================end============
+==============start============
+Fri Jun 29 01:58:15 CST 2018
+Already up-to-date.
+(node:32225) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
+INFO  Deleted database.
+INFO  Deleted public folder.
+(node:32235) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
+INFO  Start processing
+INFO  Files loaded in 1.47 s
+INFO  Generated: 404.html
+INFO  Generated: time.html
+INFO  Generated: index.html
+INFO  Generated: CNAME
+INFO  Generated: README.md
+INFO  Generated: archives/index.html
+INFO  Generated: tags/index.html
+INFO  Generated: demo/20180607-hide-firefox-scroll/test.html
+INFO  Generated: about/index.html
+INFO  Generated: img/avatar.jpg
+INFO  Generated: fonts/glyphicons-halflings-regular.eot
+INFO  Generated: demo/20180607-hide-firefox-scroll/test2.html
+INFO  Generated: img/avatar_old.jpg
+INFO  Generated: img/favicon.ico
+INFO  Generated: img/icon_wechat.png
+INFO  Generated: fonts/glyphicons-halflings-regular.ttf
+INFO  Generated: fonts/glyphicons-halflings-regular.woff
+INFO  Generated: fonts/glyphicons-halflings-regular.woff2
+INFO  Generated: archives/2018/04/index.html
+INFO  Generated: categories/笔记/index.html
+INFO  Generated: archives/2018/05/index.html
+INFO  Generated: archives/2018/06/index.html
+INFO  Generated: tags/前端开发/index.html
+INFO  Generated: tags/ubuntu/index.html
+INFO  Generated: tags/ip/index.html
+INFO  Generated: tags/python/index.html
+INFO  Generated: tags/anaconda/index.html
+INFO  Generated: tags/pycharm/index.html
+INFO  Generated: tags/javascript/index.html
+INFO  Generated: tags/CSS/index.html
+INFO  Generated: tags/教程/index.html
+INFO  Generated: tags/hexo/index.html
+INFO  Generated: tags/github/index.html
+INFO  Generated: tags/git/index.html
+INFO  Generated: tags/git-flow/index.html
+INFO  Generated: tags/gerrit/index.html
+INFO  Generated: tags/sourcetree/index.html
+INFO  Generated: img/home-bg.jpg
+INFO  Generated: img/tag-bg.jpg
+INFO  Generated: fonts/glyphicons-halflings-regular.svg
+INFO  Generated: archives/2018/index.html
+INFO  Generated: article/20180615-css-performance/index.html
+INFO  Generated: css/highlight.css
+INFO  Generated: js/hux-blog.js
+INFO  Generated: article/20180610-delete-cloud-icon/index.html
+INFO  Generated: article/20180607-hide-firefox-scroll/index.html
+INFO  Generated: article/20180528-text-intent-css-image-center/index.html
+INFO  Generated: article/20180521-learning-plan-record/index.html
+INFO  Generated: article/20180517-js-common-prolem-record-updating/index.html
+INFO  Generated: article/20180512-git-and-git-flow-and-gerrit/index.html
+INFO  Generated: article/20180503-python-install-record/index.html
+INFO  Generated: article/20180429-ubuntu-fixed-ip/index.html
+INFO  Generated: article/20180421-how-to-use-hexo/index.html
+INFO  Generated: img/contact-bg.jpg
+INFO  Generated: js/hux-blog.min.js
+INFO  Generated: js/jquery.nav.js
+INFO  Generated: js/jquery.tagcloud.js
+INFO  Generated: img/404-bg.jpg
+INFO  Generated: img/home-bg-o.jpg
+INFO  Generated: article/20180615-css-performance/3.png
+INFO  Generated: article/20180610-delete-cloud-icon/cloud.png
+INFO  Generated: article/20180610-delete-cloud-icon/regedit.png
+INFO  Generated: article/20180517-js-common-prolem-record-updating/keep-calm-and-learn-javascript.png
+INFO  Generated: article/20180521-learning-plan-record/my-learning-plan.jpg
+INFO  Generated: js/bootstrap.min.js
+INFO  Generated: article/20180503-python-install-record/post-bg-2015.jpg
+INFO  Generated: css/hux-blog.css
+INFO  Generated: css/hux-blog.min.css
+INFO  Generated: article/20180517-js-common-prolem-record-updating/post-bg-js-version.jpg
+INFO  Generated: article/20180615-css-performance/1.png
+INFO  Generated: article/20180615-css-performance/2.png
+INFO  Generated: article/20180615-css-performance/4.png
+INFO  Generated: article/20180615-css-performance/5.png
+INFO  Generated: article/20180615-css-performance/6.png
+INFO  Generated: article/20180615-css-performance/7.png
+INFO  Generated: article/20180615-css-performance/8.png
+INFO  Generated: article/20180512-git-and-git-flow-and-gerrit/git-flow.png
+INFO  Generated: article/20180512-git-and-git-flow-and-gerrit/git.png
+INFO  Generated: article/20180429-ubuntu-fixed-ip/post-bg-unix-linux.jpg
+INFO  Generated: article/20180517-js-common-prolem-record-updating/javascript-java.jpg
+INFO  Generated: article/20180512-git-and-git-flow-and-gerrit/post-bg-js-module.jpg
+INFO  Generated: img/about-bg.jpg
+INFO  Generated: article/20180607-hide-firefox-scroll/roll.jpg
+INFO  Generated: js/bootstrap.js
+INFO  Generated: article/20180421-how-to-use-hexo/hexo.jpg
+INFO  Generated: js/jquery.min.js
+INFO  Generated: css/bootstrap.min.css
+INFO  Generated: css/bootstrap.css
+INFO  Generated: js/jquery.js
+INFO  89 files generated in 523 ms
+(node:32247) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
+INFO  Deploying: git
+INFO  Clearing .deploy_git folder...
+INFO  Copying files from public folder...
+[master 7861484] Site updated: 2018-06-29 01:58:35
+ 1 file changed, 10 insertions(+), 1 deletion(-)
+To git@github.com:pq1949/pq1949.github.io.git
+   48cbcf2..7861484  HEAD -> master
+Branch master set up to track remote branch master from git@github.com:pq1949/pq1949.github.io.git.
+INFO  Deploy done: git
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   source/time.md
+#
+no changes added to commit (use "git add" and/or "git commit -a")
