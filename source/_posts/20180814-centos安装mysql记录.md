@@ -2,7 +2,7 @@
 title: centos安装mysql记录
 author: pq1949
 catalog: true
-header-img: home-bg.jpg
+header-img: ""
 tags:
   - NoteBook
 date: 2018-08-14 17:32:45

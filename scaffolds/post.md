@@ -4,6 +4,6 @@ subtitle:
 date: {{ date }}
 author:     "pq1949"
 catalog:    true
-header-img: "home-bg.jpg"
+header-img: ""
 tags: [NoteBook]
 ---
