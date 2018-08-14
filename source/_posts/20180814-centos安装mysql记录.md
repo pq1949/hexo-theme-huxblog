@@ -146,6 +146,8 @@ https://dev.mysql.com/downloads/workbench/
 ![](/img/20180814-centos安装mysql记录/192038251.png)
 ![](/img/20180814-centos安装mysql记录/192358047.png)
 
-参考 https://www.linode.com/docs/databases/mysql/how-to-install-mysql-on-centos-7/
+# 参考
+ https://www.linode.com/docs/databases/mysql/how-to-install-mysql-on-centos-7/
+ https://blog.csdn.net/lihao21/article/details/80692068
 
 #END
