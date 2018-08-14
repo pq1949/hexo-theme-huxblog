@@ -1,1 +1,3 @@
-hexo new post $1
+
+time=`date '+%Y%m%d'`
+hexo new post $time-$1

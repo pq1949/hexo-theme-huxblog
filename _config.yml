@@ -137,7 +137,7 @@ friends: [
 source_dir: source
 public_dir: public
 tag_dir: tags
-archive_dir: archives
+archive_dir: i_dont_wanna_use_default_archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
@@ -185,5 +185,5 @@ theme: huxblog
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:pq1949/pq1949.github.io.git 
+  repo: git@github.com:pq1949/pq1949.github.io.git
   branch: master
