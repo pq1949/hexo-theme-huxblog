@@ -12275,3 +12275,239 @@ INFO  Deploy done: git
 #	modified:   source/time.md
 #
 no changes added to commit (use "git add" and/or "git commit -a")
+[master 7fa93c5] new
+ 1 file changed, 145 insertions(+)
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+To git@github.com:pq1949/hexo-theme-huxblog.git
+   9b30946..7fa93c5  master -> master
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   source/time.md
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+Tue Aug 14 01:58:49 CST 2018
+================end============
+==============start============
+Wed Aug 15 01:58:15 CST 2018
+From github.com:pq1949/hexo-theme-huxblog
+   7fa93c5..4dd561b  master     -> origin/master
+Updating 7fa93c5..4dd561b
+Fast-forward
+ _config.yml                                        |   6 +-
+ new_post.sh                                        |   7 +-
+ scaffolds/post.md                                  |   4 +-
+ ...11\350\243\205mysql\350\256\260\345\275\225.md" | 153 +++++++++++++++++++++
+ ...217\220\344\272\244\350\247\204\350\214\203.md" |  80 +++++++++++
+ ...11\350\243\205redis\350\256\260\345\275\225.md" |  62 +++++++++
+ .../182303279.png"                                 | Bin 0 -> 14135 bytes
+ .../183326707.png"                                 | Bin 0 -> 37477 bytes
+ .../183757772.png"                                 | Bin 0 -> 11775 bytes
+ .../184059751.png"                                 | Bin 0 -> 16229 bytes
+ .../184237430.png"                                 | Bin 0 -> 11091 bytes
+ .../190106909.png"                                 | Bin 0 -> 73980 bytes
+ .../190512372.png"                                 | Bin 0 -> 51625 bytes
+ .../191326229.png"                                 | Bin 0 -> 20411 bytes
+ .../191745506.png"                                 | Bin 0 -> 16667 bytes
+ .../192038251.png"                                 | Bin 0 -> 14833 bytes
+ .../192358047.png"                                 | Bin 0 -> 17712 bytes
+ .../155753502.png"                                 | Bin 0 -> 51800 bytes
+ ...205redis\350\256\260\345\275\225-010727529.png" | Bin 0 -> 38205 bytes
+ ...205redis\350\256\260\345\275\225-010754297.png" | Bin 0 -> 39883 bytes
+ 20 files changed, 306 insertions(+), 6 deletions(-)
+ create mode 100644 "source/_posts/20180814-centos\345\256\211\350\243\205mysql\350\256\260\345\275\225.md"
+ create mode 100644 "source/_posts/20180814-git\347\232\204\346\217\220\344\272\244\350\247\204\350\214\203.md"
+ create mode 100644 "source/_posts/20180815-centos\345\256\211\350\243\205redis\350\256\260\345\275\225.md"
+ create mode 100644 "source/img/20180814-centos\345\256\211\350\243\205mysql\350\256\260\345\275\225/182303279.png"
+ create mode 100644 "source/img/20180814-centos\345\256\211\350\243\205mysql\350\256\260\345\275\225/183326707.png"
+ create mode 100644 "source/img/20180814-centos\345\256\211\350\243\205mysql\350\256\260\345\275\225/183757772.png"
+ create mode 100644 "source/img/20180814-centos\345\256\211\350\243\205mysql\350\256\260\345\275\225/184059751.png"
+ create mode 100644 "source/img/20180814-centos\345\256\211\350\243\205mysql\350\256\260\345\275\225/184237430.png"
+ create mode 100644 "source/img/20180814-centos\345\256\211\350\243\205mysql\350\256\260\345\275\225/190106909.png"
+ create mode 100644 "source/img/20180814-centos\345\256\211\350\243\205mysql\350\256\260\345\275\225/190512372.png"
+ create mode 100644 "source/img/20180814-centos\345\256\211\350\243\205mysql\350\256\260\345\275\225/191326229.png"
+ create mode 100644 "source/img/20180814-centos\345\256\211\350\243\205mysql\350\256\260\345\275\225/191745506.png"
+ create mode 100644 "source/img/20180814-centos\345\256\211\350\243\205mysql\350\256\260\345\275\225/192038251.png"
+ create mode 100644 "source/img/20180814-centos\345\256\211\350\243\205mysql\350\256\260\345\275\225/192358047.png"
+ create mode 100644 "source/img/20180814-git\347\232\204\346\217\220\344\272\244\350\247\204\350\214\203/155753502.png"
+ create mode 100644 "source/img/20180815-centos\345\256\211\350\243\205redis\350\256\260\345\275\225/20180815-centos\345\256\211\350\243\205redis\350\256\260\345\275\225-010727529.png"
+ create mode 100644 "source/img/20180815-centos\345\256\211\350\243\205redis\350\256\260\345\275\225/20180815-centos\345\256\211\350\243\205redis\350\256\260\345\275\225-010754297.png"
+(node:10855) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
+INFO  Deleted database.
+INFO  Deleted public folder.
+(node:10868) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
+INFO  Start processing
+INFO  Files loaded in 3.91 s
+INFO  Generated: 404.html
+INFO  Generated: time.html
+INFO  Generated: index.html
+INFO  Generated: README.md
+INFO  Generated: CNAME
+INFO  Generated: i_dont_wanna_use_default_archives/index.html
+INFO  Generated: archives/index.html
+INFO  Generated: tags/index.html
+INFO  Generated: about/index.html
+INFO  Generated: img/avatar.jpg
+INFO  Generated: img/avatar_old.jpg
+INFO  Generated: img/favicon.ico
+INFO  Generated: img/icon_wechat.png
+INFO  Generated: demo/20180607-hide-firefox-scroll/test.html
+INFO  Generated: img/404-bg.jpg
+INFO  Generated: img/home-bg-o.jpg
+INFO  Generated: demo/20180607-hide-firefox-scroll/test2.html
+INFO  Generated: img/20180815-centos安装redis记录/20180815-centos安装redis记录-010754297.png
+INFO  Generated: fonts/glyphicons-halflings-regular.eot
+INFO  Generated: img/home-bg.jpg
+INFO  Generated: fonts/glyphicons-halflings-regular.ttf
+INFO  Generated: fonts/glyphicons-halflings-regular.woff
+INFO  Generated: fonts/glyphicons-halflings-regular.woff2
+INFO  Generated: img/tag-bg.jpg
+INFO  Generated: i_dont_wanna_use_default_archives/page/2/index.html
+INFO  Generated: i_dont_wanna_use_default_archives/2018/04/index.html
+INFO  Generated: categories/笔记/index.html
+INFO  Generated: article/20180815-centos安装redis记录/index.html
+INFO  Generated: page/2/index.html
+INFO  Generated: img/20180814-centos安装mysql记录/190106909.png
+INFO  Generated: css/highlight.css
+INFO  Generated: js/hux-blog.js
+INFO  Generated: i_dont_wanna_use_default_archives/2018/05/index.html
+INFO  Generated: i_dont_wanna_use_default_archives/2018/06/index.html
+INFO  Generated: i_dont_wanna_use_default_archives/2018/08/index.html
+INFO  Generated: tags/前端开发/index.html
+INFO  Generated: tags/javascript/index.html
+INFO  Generated: tags/CSS/index.html
+INFO  Generated: tags/ubuntu/index.html
+INFO  Generated: tags/ip/index.html
+INFO  Generated: tags/python/index.html
+INFO  Generated: tags/anaconda/index.html
+INFO  Generated: tags/pycharm/index.html
+INFO  Generated: tags/NoteBook/index.html
+INFO  Generated: tags/git/index.html
+INFO  Generated: tags/git-flow/index.html
+INFO  Generated: tags/gerrit/index.html
+INFO  Generated: tags/sourcetree/index.html
+INFO  Generated: tags/教程/index.html
+INFO  Generated: tags/hexo/index.html
+INFO  Generated: tags/github/index.html
+INFO  Generated: article/20180814-centos安装mysql记录/index.html
+INFO  Generated: article/20180814-git的提交规范/index.html
+INFO  Generated: article/20180615-css-performance/index.html
+INFO  Generated: article/20180610-delete-cloud-icon/index.html
+INFO  Generated: article/20180607-hide-firefox-scroll/index.html
+INFO  Generated: article/20180528-text-intent-css-image-center/index.html
+INFO  Generated: article/20180521-learning-plan-record/index.html
+INFO  Generated: article/20180517-js-common-prolem-record-updating/index.html
+INFO  Generated: article/20180512-git-and-git-flow-and-gerrit/index.html
+INFO  Generated: article/20180503-python-install-record/index.html
+INFO  Generated: img/contact-bg.jpg
+INFO  Generated: fonts/glyphicons-halflings-regular.svg
+INFO  Generated: js/hux-blog.min.js
+INFO  Generated: js/jquery.nav.js
+INFO  Generated: js/jquery.tagcloud.js
+INFO  Generated: i_dont_wanna_use_default_archives/2018/index.html
+INFO  Generated: img/20180814-centos安装mysql记录/182303279.png
+INFO  Generated: img/20180814-centos安装mysql记录/183326707.png
+INFO  Generated: img/20180814-centos安装mysql记录/183757772.png
+INFO  Generated: img/20180814-centos安装mysql记录/184059751.png
+INFO  Generated: img/20180814-centos安装mysql记录/184237430.png
+INFO  Generated: img/20180814-centos安装mysql记录/190512372.png
+INFO  Generated: img/20180814-centos安装mysql记录/191326229.png
+INFO  Generated: img/20180814-centos安装mysql记录/191745506.png
+INFO  Generated: img/20180814-centos安装mysql记录/192038251.png
+INFO  Generated: img/20180814-centos安装mysql记录/192358047.png
+INFO  Generated: img/20180815-centos安装redis记录/20180815-centos安装redis记录-010727529.png
+INFO  Generated: article/20180429-ubuntu-fixed-ip/index.html
+INFO  Generated: article/20180421-how-to-use-hexo/index.html
+INFO  Generated: img/20180814-git的提交规范/155753502.png
+INFO  Generated: js/bootstrap.min.js
+INFO  Generated: css/hux-blog.css
+INFO  Generated: css/hux-blog.min.css
+INFO  Generated: i_dont_wanna_use_default_archives/2018/page/2/index.html
+INFO  Generated: img/about-bg.jpg
+INFO  Generated: js/bootstrap.js
+INFO  Generated: js/jquery.min.js
+INFO  Generated: css/bootstrap.min.css
+INFO  Generated: css/bootstrap.css
+INFO  Generated: js/jquery.js
+INFO  91 files generated in 2.22 s
+(node:10893) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
+INFO  Deploying: git
+INFO  Clearing .deploy_git folder...
+INFO  Copying files from public folder...
+[master 0350db1] Site updated: 2018-08-15 01:59:02
+ 80 files changed, 4832 insertions(+), 212 deletions(-)
+ delete mode 100644 article/20180421-how-to-use-hexo/hexo.jpg
+ delete mode 100644 article/20180429-ubuntu-fixed-ip/post-bg-unix-linux.jpg
+ delete mode 100644 article/20180503-python-install-record/post-bg-2015.jpg
+ delete mode 100644 article/20180512-git-and-git-flow-and-gerrit/git-flow.png
+ delete mode 100644 article/20180512-git-and-git-flow-and-gerrit/git.png
+ delete mode 100644 article/20180512-git-and-git-flow-and-gerrit/post-bg-js-module.jpg
+ delete mode 100644 article/20180517-js-common-prolem-record-updating/javascript-java.jpg
+ delete mode 100644 article/20180517-js-common-prolem-record-updating/keep-calm-and-learn-javascript.png
+ delete mode 100644 article/20180517-js-common-prolem-record-updating/post-bg-js-version.jpg
+ delete mode 100644 article/20180521-learning-plan-record/my-learning-plan.jpg
+ delete mode 100644 article/20180607-hide-firefox-scroll/roll.jpg
+ delete mode 100644 article/20180610-delete-cloud-icon/cloud.png
+ delete mode 100644 article/20180610-delete-cloud-icon/regedit.png
+ delete mode 100644 article/20180615-css-performance/1.png
+ delete mode 100644 article/20180615-css-performance/2.png
+ delete mode 100644 article/20180615-css-performance/3.png
+ delete mode 100644 article/20180615-css-performance/4.png
+ delete mode 100644 article/20180615-css-performance/5.png
+ delete mode 100644 article/20180615-css-performance/6.png
+ delete mode 100644 article/20180615-css-performance/7.png
+ delete mode 100644 article/20180615-css-performance/8.png
+ create mode 100644 "article/20180814-centos\345\256\211\350\243\205mysql\350\256\260\345\275\225/index.html"
+ create mode 100644 "article/20180814-git\347\232\204\346\217\220\344\272\244\350\247\204\350\214\203/index.html"
+ create mode 100644 "article/20180815-centos\345\256\211\350\243\205redis\350\256\260\345\275\225/index.html"
+ create mode 100644 i_dont_wanna_use_default_archives/2018/04/index.html
+ create mode 100644 i_dont_wanna_use_default_archives/2018/05/index.html
+ create mode 100644 i_dont_wanna_use_default_archives/2018/06/index.html
+ create mode 100644 i_dont_wanna_use_default_archives/2018/08/index.html
+ rename {archives/2018/05 => i_dont_wanna_use_default_archives/2018}/index.html (99%)
+ create mode 100644 i_dont_wanna_use_default_archives/2018/page/2/index.html
+ rename {archives/2018/04 => i_dont_wanna_use_default_archives}/index.html (99%)
+ rename {archives/2018/06 => i_dont_wanna_use_default_archives/page/2}/index.html (99%)
+ create mode 100644 "img/20180814-centos\345\256\211\350\243\205mysql\350\256\260\345\275\225/182303279.png"
+ create mode 100644 "img/20180814-centos\345\256\211\350\243\205mysql\350\256\260\345\275\225/183326707.png"
+ create mode 100644 "img/20180814-centos\345\256\211\350\243\205mysql\350\256\260\345\275\225/183757772.png"
+ create mode 100644 "img/20180814-centos\345\256\211\350\243\205mysql\350\256\260\345\275\225/184059751.png"
+ create mode 100644 "img/20180814-centos\345\256\211\350\243\205mysql\350\256\260\345\275\225/184237430.png"
+ create mode 100644 "img/20180814-centos\345\256\211\350\243\205mysql\350\256\260\345\275\225/190106909.png"
+ create mode 100644 "img/20180814-centos\345\256\211\350\243\205mysql\350\256\260\345\275\225/190512372.png"
+ create mode 100644 "img/20180814-centos\345\256\211\350\243\205mysql\350\256\260\345\275\225/191326229.png"
+ create mode 100644 "img/20180814-centos\345\256\211\350\243\205mysql\350\256\260\345\275\225/191745506.png"
+ create mode 100644 "img/20180814-centos\345\256\211\350\243\205mysql\350\256\260\345\275\225/192038251.png"
+ create mode 100644 "img/20180814-centos\345\256\211\350\243\205mysql\350\256\260\345\275\225/192358047.png"
+ create mode 100644 "img/20180814-git\347\232\204\346\217\220\344\272\244\350\247\204\350\214\203/155753502.png"
+ create mode 100644 "img/20180815-centos\345\256\211\350\243\205redis\350\256\260\345\275\225/20180815-centos\345\256\211\350\243\205redis\350\256\260\345\275\225-010727529.png"
+ create mode 100644 "img/20180815-centos\345\256\211\350\243\205redis\350\256\260\345\275\225/20180815-centos\345\256\211\350\243\205redis\350\256\260\345\275\225-010754297.png"
+ create mode 100644 page/2/index.html
+ rename {archives/2018 => tags/NoteBook}/index.html (99%)
+To git@github.com:pq1949/pq1949.github.io.git
+   40895e1..0350db1  HEAD -> master
+Branch master set up to track remote branch master from git@github.com:pq1949/pq1949.github.io.git.
+INFO  Deploy done: git
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   source/time.md
+#
+no changes added to commit (use "git add" and/or "git commit -a")
