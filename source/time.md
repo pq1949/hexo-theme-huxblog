@@ -24951,3 +24951,167 @@ INFO  Deploy done: git
 #	modified:   source/time.md
 #
 no changes added to commit (use "git add" and/or "git commit -a")
+[master d8e6f4b] new
+ 1 file changed, 148 insertions(+)
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+To git@github.com:pq1949/hexo-theme-huxblog.git
+   8273cb8..d8e6f4b  master -> master
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   source/time.md
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+Wed Nov  7 01:58:48 CST 2018
+================end============
+==============start============
+Thu Nov  8 01:58:15 CST 2018
+From github.com:pq1949/hexo-theme-huxblog
+   d8e6f4b..d2a9910  master     -> origin/master
+Updating d8e6f4b..d2a9910
+Fast-forward
+ ...07-You-Dont-Know-JS\347\254\224\350\256\260.md" | 121 +++++++++++++++++++++
+ .../191414553.png"                                 | Bin 0 -> 5056 bytes
+ 2 files changed, 121 insertions(+)
+ create mode 100644 "source/_posts/20181107-You-Dont-Know-JS\347\254\224\350\256\260.md"
+ create mode 100644 "source/img/20181107-You-Dont-Know-JS\347\254\224\350\256\260/191414553.png"
+(node:17915) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
+INFO  Deleted database.
+INFO  Deleted public folder.
+(node:17939) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
+INFO  Start processing
+INFO  Files loaded in 5.54 s
+INFO  Generated: 404.html
+INFO  Generated: time.html
+INFO  Generated: index.html
+INFO  Generated: README.md
+INFO  Generated: CNAME
+INFO  Generated: i_dont_wanna_use_default_archives/index.html
+INFO  Generated: archives/index.html
+INFO  Generated: demo/20180607-hide-firefox-scroll/test.html
+INFO  Generated: tags/index.html
+INFO  Generated: about/index.html
+INFO  Generated: img/avatar.jpg
+INFO  Generated: img/home-bg.jpg
+INFO  Generated: demo/20180607-hide-firefox-scroll/test2.html
+INFO  Generated: img/avatar_old.jpg
+INFO  Generated: img/favicon.ico
+INFO  Generated: img/icon_wechat.png
+INFO  Generated: fonts/glyphicons-halflings-regular.eot
+INFO  Generated: i_dont_wanna_use_default_archives/page/2/index.html
+INFO  Generated: i_dont_wanna_use_default_archives/2018/04/index.html
+INFO  Generated: categories/笔记/index.html
+INFO  Generated: img/20180814-centos安装mysql记录/190106909.png
+INFO  Generated: i_dont_wanna_use_default_archives/2018/05/index.html
+INFO  Generated: i_dont_wanna_use_default_archives/2018/06/index.html
+INFO  Generated: i_dont_wanna_use_default_archives/2018/08/index.html
+INFO  Generated: i_dont_wanna_use_default_archives/2018/11/index.html
+INFO  Generated: tags/前端开发/index.html
+INFO  Generated: tags/ubuntu/index.html
+INFO  Generated: tags/ip/index.html
+INFO  Generated: tags/python/index.html
+INFO  Generated: tags/anaconda/index.html
+INFO  Generated: tags/pycharm/index.html
+INFO  Generated: tags/javascript/index.html
+INFO  Generated: tags/CSS/index.html
+INFO  Generated: tags/NoteBook/index.html
+INFO  Generated: tags/读书笔记/index.html
+INFO  Generated: tags/教程/index.html
+INFO  Generated: tags/hexo/index.html
+INFO  Generated: tags/github/index.html
+INFO  Generated: tags/git/index.html
+INFO  Generated: tags/git-flow/index.html
+INFO  Generated: tags/gerrit/index.html
+INFO  Generated: tags/sourcetree/index.html
+INFO  Generated: img/contact-bg.jpg
+INFO  Generated: fonts/glyphicons-halflings-regular.ttf
+INFO  Generated: fonts/glyphicons-halflings-regular.woff
+INFO  Generated: fonts/glyphicons-halflings-regular.woff2
+INFO  Generated: img/tag-bg.jpg
+INFO  Generated: fonts/glyphicons-halflings-regular.svg
+INFO  Generated: i_dont_wanna_use_default_archives/2018/index.html
+INFO  Generated: article/20181107-You-Dont-Know-JS笔记/index.html
+INFO  Generated: page/2/index.html
+INFO  Generated: css/highlight.css
+INFO  Generated: js/hux-blog.js
+INFO  Generated: article/20180816-centos安装mongodb记录/index.html
+INFO  Generated: article/20180815-centos安装redis记录/index.html
+INFO  Generated: article/20180814-centos安装mysql记录/index.html
+INFO  Generated: article/20180814-git的提交规范/index.html
+INFO  Generated: article/20180615-css-performance/index.html
+INFO  Generated: article/20180610-delete-cloud-icon/index.html
+INFO  Generated: article/20180607-hide-firefox-scroll/index.html
+INFO  Generated: article/20180528-text-intent-css-image-center/index.html
+INFO  Generated: article/20180521-learning-plan-record/index.html
+INFO  Generated: article/20180517-js-common-prolem-record-updating/index.html
+INFO  Generated: article/20180512-git-and-git-flow-and-gerrit/index.html
+INFO  Generated: article/20180503-python-install-record/index.html
+INFO  Generated: article/20180429-ubuntu-fixed-ip/index.html
+INFO  Generated: article/20180421-how-to-use-hexo/index.html
+INFO  Generated: js/bootstrap.min.js
+INFO  Generated: js/hux-blog.min.js
+INFO  Generated: js/jquery.nav.js
+INFO  Generated: js/jquery.tagcloud.js
+INFO  Generated: img/404-bg.jpg
+INFO  Generated: img/home-bg-o.jpg
+INFO  Generated: css/hux-blog.css
+INFO  Generated: css/hux-blog.min.css
+INFO  Generated: img/20180814-centos安装mysql记录/182303279.png
+INFO  Generated: img/20180814-centos安装mysql记录/183326707.png
+INFO  Generated: img/20180814-centos安装mysql记录/183757772.png
+INFO  Generated: img/20180814-centos安装mysql记录/184059751.png
+INFO  Generated: img/20180814-centos安装mysql记录/184237430.png
+INFO  Generated: img/20180814-centos安装mysql记录/190512372.png
+INFO  Generated: img/20180814-centos安装mysql记录/191326229.png
+INFO  Generated: img/20180814-centos安装mysql记录/191745506.png
+INFO  Generated: img/20180814-centos安装mysql记录/192038251.png
+INFO  Generated: img/20180814-centos安装mysql记录/192358047.png
+INFO  Generated: img/20180814-git的提交规范/155753502.png
+INFO  Generated: img/20180815-centos安装redis记录/20180815-centos安装redis记录-010754297.png
+INFO  Generated: img/about-bg.jpg
+INFO  Generated: img/20181107-You-Dont-Know-JS笔记/191414553.png
+INFO  Generated: i_dont_wanna_use_default_archives/2018/page/2/index.html
+INFO  Generated: img/20180815-centos安装redis记录/20180815-centos安装redis记录-010727529.png
+INFO  Generated: js/bootstrap.js
+INFO  Generated: js/jquery.min.js
+INFO  Generated: css/bootstrap.min.css
+INFO  Generated: css/bootstrap.css
+INFO  Generated: js/jquery.js
+INFO  96 files generated in 2.47 s
+(node:17959) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
+INFO  Deploying: git
+INFO  Clearing .deploy_git folder...
+INFO  Copying files from public folder...
+[master f6f9eaa] Site updated: 2018-11-08 01:58:53
+ 50 files changed, 1716 insertions(+), 250 deletions(-)
+ create mode 100644 "article/20181107-You-Dont-Know-JS\347\254\224\350\256\260/index.html"
+ create mode 100644 i_dont_wanna_use_default_archives/2018/11/index.html
+ create mode 100644 "img/20181107-You-Dont-Know-JS\347\254\224\350\256\260/191414553.png"
+ create mode 100644 "tags/\350\257\273\344\271\246\347\254\224\350\256\260/index.html"
+To git@github.com:pq1949/pq1949.github.io.git
+   4cf84fe..f6f9eaa  HEAD -> master
+Branch master set up to track remote branch master from git@github.com:pq1949/pq1949.github.io.git.
+INFO  Deploy done: git
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   source/time.md
+#
+no changes added to commit (use "git add" and/or "git commit -a")
