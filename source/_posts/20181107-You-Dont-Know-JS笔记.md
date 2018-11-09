@@ -119,3 +119,69 @@ subtitle:
   使用原型的更自然的方式是一种称为“行为委托”的模式，在这种模式中你有意地将你的被链接的对象设计为可以从一个委托到另一个的部分所需的行为中。
 
   **注意：** 更多关于原型和行为委托的信息，参见本系列的 *this与对象原型* 的第四到六章。
+
+### [作用域与闭包](https://github.com/getify/You-Dont-Know-JS/blob/1ed-zh-CN/scope%20&%20closures/README.md#you-dont-know-js-scope--closures)
+
+#### 不要使用 `eval` 或 `with`
+  ```js
+  function foo(str, a) {
+    eval( str ); // 作弊！
+    console.log( a, b );
+  }
+
+  var b = 2;
+
+  foo( "var b = 3;", 1 ); // 1 3
+  ```
+  ```js
+  function foo(str) {
+    "use strict";
+    eval( str );
+    console.log( a ); // ReferenceError: a is not defined
+  }
+
+  foo( "var a = 2" );
+  ```
+  ```js
+  var obj = {
+    a: 1,
+    b: 2,
+    c: 3
+  };
+
+  //  重复“obj”显得更“繁冗”
+  obj.a = 2;
+  obj.b = 3;
+  obj.c = 4;
+
+  // “更简单”的缩写
+  with (obj) {
+    a = 3;
+    b = 4;
+    c = 5;
+  }
+  ```
+  ```js
+  function foo(obj) {
+    with (obj) {
+      a = 2;
+    }
+  }
+
+  var o1 = {
+    a: 3
+  };
+
+  var o2 = {
+    b: 3
+  };
+
+  foo( o1 );
+  console.log( o1.a ); // 2
+
+  foo( o2 );
+  console.log( o2.a ); // undefined
+  console.log( a ); // 2 -- 哦，全局作用域被泄漏了！
+  ```
+在代码的任何地方引入了一个了 eval(..) 或 with。无论 引擎 将在努力限制这些悲观臆测的副作用上表现得多么聪明，都没有任何办法可以绕过这个事实：没有优化，代码就运行的更慢。
+[参考](https://github.com/getify/You-Dont-Know-JS/blob/1ed-zh-CN/scope%20%26%20closures/ch2.md)
