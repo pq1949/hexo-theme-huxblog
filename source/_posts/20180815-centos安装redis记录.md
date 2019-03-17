@@ -57,6 +57,18 @@ windows上使用  Redis Desktop Manager
 下载地址  https://github.com/uglide/RedisDesktopManager/releases
 ![](/img/20180815-centos安装redis记录/20180815-centos安装redis记录-010727529.png)
 ![](/img/20180815-centos安装redis记录/20180815-centos安装redis记录-010754297.png)
+
+## 命令行访问
+
+```bash
+redis-cli -h {host} -p {port}
+auth pass
+ping
+keys *
+```
+默认是 127.0.0.1 6379
+
+
 # 参考
 
 https://www.linode.com/docs/databases/redis/install-and-configure-redis-on-centos-7/
