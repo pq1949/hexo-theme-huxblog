@@ -24,6 +24,14 @@ ws.run "cmd /c activeBeyond.bat",vbhide
 'objFSO.DeleteFile("C:\Users\Administrator\AppData\Roaming\Scooter Software\Beyond Compare 4\BCState.xml.bak")
 msgbox "Beyond Compare 4 Active Success!"
 ```
+activeBeyond.bat
+```bat
+:loop
+del "C:\Users\Administrator\AppData\Roaming\Scooter Software\Beyond Compare 4\BCState.xml"
+del "C:\Users\Administrator\AppData\Roaming\Scooter Software\Beyond Compare 4\BCState.xml.bak"
+@ping 127.0.0.1 -n 1 >nul
+goto loop
+```
 
 3、 添加到开机启动项
 
@@ -31,7 +39,7 @@ msgbox "Beyond Compare 4 Active Success!"
 shell:startup
 ```
 
-复制 activeBeyond.vbs 到打开的目录中去
+复制 activeBeyond.vbs 的快捷方式到打开的目录中去
 
 
 https://gist.github.com/pq1949/522c09c4597287baff07e1981cac0df4
