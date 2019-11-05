@@ -81666,3 +81666,158 @@ INFO  Deploy done: git
 #	modified:   source/time.md
 #
 no changes added to commit (use "git add" and/or "git commit -a")
+[master d578373] new
+ 1 file changed, 254 insertions(+)
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+To git@github.com:pq1949/hexo-theme-huxblog.git
+   65b7cc2..d578373  master -> master
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   source/time.md
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+Tue Nov  5 01:59:36 CST 2019
+================end============
+==============start============
+Wed Nov  6 01:58:15 CST 2019
+Already up-to-date.
+(node:10964) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
+INFO  Deleted database.
+INFO  Deleted public folder.
+(node:11009) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
+INFO  Start processing
+INFO  Files loaded in 8.38 s
+deploy.sh: line 4: 11009 Killed                  hexo g
+(node:11058) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
+INFO  Deploying: git
+INFO  Clearing .deploy_git folder...
+INFO  Copying files from public folder...
+[master 98a504c] Site updated: 2019-11-06 01:58:54
+ 101 files changed, 50706 deletions(-)
+ rewrite 404.html (100%)
+ delete mode 100644 about/index.html
+ delete mode 100644 archives/index.html
+ delete mode 100644 article/20180421-how-to-use-hexo/index.html
+ delete mode 100644 article/20180429-ubuntu-fixed-ip/index.html
+ delete mode 100644 article/20180503-python-install-record/index.html
+ delete mode 100644 article/20180512-git-and-git-flow-and-gerrit/index.html
+ delete mode 100644 article/20180517-js-common-prolem-record-updating/index.html
+ delete mode 100644 article/20180521-learning-plan-record/index.html
+ delete mode 100644 article/20180528-text-intent-css-image-center/index.html
+ delete mode 100644 article/20180607-hide-firefox-scroll/index.html
+ delete mode 100644 article/20180610-delete-cloud-icon/index.html
+ delete mode 100644 article/20180615-css-performance/index.html
+ delete mode 100644 "article/20180814-centos\345\256\211\350\243\205mysql\350\256\260\345\275\225/index.html"
+ delete mode 100644 "article/20180814-git\347\232\204\346\217\220\344\272\244\350\247\204\350\214\203/index.html"
+ delete mode 100644 "article/20180815-centos\345\256\211\350\243\205redis\350\256\260\345\275\225/index.html"
+ delete mode 100644 "article/20180816-centos\345\256\211\350\243\205mongodb\350\256\260\345\275\225/index.html"
+ delete mode 100644 "article/20181107-You-Dont-Know-JS\347\254\224\350\256\260/index.html"
+ delete mode 100644 "article/20190102-\347\237\245\350\257\206\347\202\271/index.html"
+ delete mode 100644 "article/20190326-beyondcompare\350\207\252\345\212\250\346\277\200\346\264\273/index.html"
+ delete mode 100644 "categories/\347\254\224\350\256\260/index.html"
+ delete mode 100644 css/bootstrap.css
+ delete mode 100644 css/bootstrap.min.css
+ delete mode 100644 css/highlight.css
+ delete mode 100644 css/hux-blog.css
+ delete mode 100644 css/hux-blog.min.css
+ delete mode 100644 demo/20180607-hide-firefox-scroll/test.html
+ delete mode 100644 demo/20180607-hide-firefox-scroll/test2.html
+ delete mode 100644 fonts/glyphicons-halflings-regular.eot
+ delete mode 100644 fonts/glyphicons-halflings-regular.svg
+ delete mode 100644 fonts/glyphicons-halflings-regular.ttf
+ delete mode 100644 fonts/glyphicons-halflings-regular.woff
+ delete mode 100644 fonts/glyphicons-halflings-regular.woff2
+ delete mode 100644 i_dont_wanna_use_default_archives/2018/04/index.html
+ delete mode 100644 i_dont_wanna_use_default_archives/2018/05/index.html
+ delete mode 100644 i_dont_wanna_use_default_archives/2018/06/index.html
+ delete mode 100644 i_dont_wanna_use_default_archives/2018/08/index.html
+ delete mode 100644 i_dont_wanna_use_default_archives/2018/11/index.html
+ delete mode 100644 i_dont_wanna_use_default_archives/2018/index.html
+ delete mode 100644 i_dont_wanna_use_default_archives/2018/page/2/index.html
+ delete mode 100644 i_dont_wanna_use_default_archives/2019/01/index.html
+ delete mode 100644 i_dont_wanna_use_default_archives/2019/03/index.html
+ delete mode 100644 i_dont_wanna_use_default_archives/2019/index.html
+ delete mode 100644 i_dont_wanna_use_default_archives/index.html
+ delete mode 100644 i_dont_wanna_use_default_archives/page/2/index.html
+ delete mode 100644 "img/20180814-centos\345\256\211\350\243\205mysql\350\256\260\345\275\225/182303279.png"
+ delete mode 100644 "img/20180814-centos\345\256\211\350\243\205mysql\350\256\260\345\275\225/183326707.png"
+ delete mode 100644 "img/20180814-centos\345\256\211\350\243\205mysql\350\256\260\345\275\225/183757772.png"
+ delete mode 100644 "img/20180814-centos\345\256\211\350\243\205mysql\350\256\260\345\275\225/184059751.png"
+ delete mode 100644 "img/20180814-centos\345\256\211\350\243\205mysql\350\256\260\345\275\225/184237430.png"
+ delete mode 100644 "img/20180814-centos\345\256\211\350\243\205mysql\350\256\260\345\275\225/190106909.png"
+ delete mode 100644 "img/20180814-centos\345\256\211\350\243\205mysql\350\256\260\345\275\225/190512372.png"
+ delete mode 100644 "img/20180814-centos\345\256\211\350\243\205mysql\350\256\260\345\275\225/191326229.png"
+ delete mode 100644 "img/20180814-centos\345\256\211\350\243\205mysql\350\256\260\345\275\225/191745506.png"
+ delete mode 100644 "img/20180814-centos\345\256\211\350\243\205mysql\350\256\260\345\275\225/192038251.png"
+ delete mode 100644 "img/20180814-centos\345\256\211\350\243\205mysql\350\256\260\345\275\225/192358047.png"
+ delete mode 100644 "img/20180814-git\347\232\204\346\217\220\344\272\244\350\247\204\350\214\203/155753502.png"
+ delete mode 100644 "img/20180815-centos\345\256\211\350\243\205redis\350\256\260\345\275\225/20180815-centos\345\256\211\350\243\205redis\350\256\260\345\275\225-010727529.png"
+ delete mode 100644 "img/20180815-centos\345\256\211\350\243\205redis\350\256\260\345\275\225/20180815-centos\345\256\211\350\243\205redis\350\256\260\345\275\225-010754297.png"
+ delete mode 100644 "img/20181107-You-Dont-Know-JS\347\254\224\350\256\260/191414553.png"
+ delete mode 100644 img/404-bg.jpg
+ delete mode 100644 img/about-bg.jpg
+ delete mode 100644 img/avatar.jpg
+ delete mode 100644 img/avatar_old.jpg
+ delete mode 100644 img/contact-bg.jpg
+ delete mode 100644 img/favicon.ico
+ delete mode 100644 img/home-bg-o.jpg
+ delete mode 100644 img/home-bg.jpg
+ delete mode 100644 img/icon_wechat.png
+ delete mode 100644 img/tag-bg.jpg
+ rewrite index.html (100%)
+ delete mode 100644 js/bootstrap.js
+ delete mode 100644 js/bootstrap.min.js
+ delete mode 100644 js/hux-blog.js
+ delete mode 100644 js/hux-blog.min.js
+ delete mode 100644 js/jquery.js
+ delete mode 100644 js/jquery.min.js
+ delete mode 100644 js/jquery.nav.js
+ delete mode 100644 js/jquery.tagcloud.js
+ delete mode 100644 page/2/index.html
+ delete mode 100644 tags/CSS/index.html
+ delete mode 100644 tags/NoteBook/index.html
+ delete mode 100644 tags/anaconda/index.html
+ delete mode 100644 tags/gerrit/index.html
+ delete mode 100644 tags/git-flow/index.html
+ delete mode 100644 tags/git/index.html
+ delete mode 100644 tags/github/index.html
+ delete mode 100644 tags/hexo/index.html
+ delete mode 100644 tags/index.html
+ delete mode 100644 tags/ip/index.html
+ delete mode 100644 tags/javascript/index.html
+ delete mode 100644 tags/pycharm/index.html
+ delete mode 100644 tags/python/index.html
+ delete mode 100644 tags/sourcetree/index.html
+ delete mode 100644 tags/ubuntu/index.html
+ delete mode 100644 "tags/\345\211\215\347\253\257\345\274\200\345\217\221/index.html"
+ delete mode 100644 "tags/\346\225\231\347\250\213/index.html"
+ delete mode 100644 "tags/\350\257\273\344\271\246\347\254\224\350\256\260/index.html"
+ rewrite time.html (100%)
+To git@github.com:pq1949/pq1949.github.io.git
+   fcc88e5..98a504c  HEAD -> master
+Branch master set up to track remote branch master from git@github.com:pq1949/pq1949.github.io.git.
+INFO  Deploy done: git
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   source/time.md
+#
+no changes added to commit (use "git add" and/or "git commit -a")
