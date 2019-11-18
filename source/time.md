@@ -83902,3 +83902,64 @@ INFO  Deploy done: git
 #	modified:   source/time.md
 #
 no changes added to commit (use "git add" and/or "git commit -a")
+[master 1d1b5b5] new
+ 1 file changed, 157 insertions(+)
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+To git@github.com:pq1949/hexo-theme-huxblog.git
+   9235838..1d1b5b5  master -> master
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   source/time.md
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+Mon Nov 18 01:59:16 CST 2019
+================end============
+==============start============
+Tue Nov 19 01:58:16 CST 2019
+Already up-to-date.
+(node:1010) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
+INFO  Deleted database.
+INFO  Deleted public folder.
+(node:1050) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
+INFO  Start processing
+INFO  Files loaded in 8.47 s
+deploy.sh: line 4:  1050 Killed                  hexo g
+(node:1090) [DEP0061] DeprecationWarning: fs.SyncWriteStream is deprecated.
+INFO  Deploying: git
+INFO  Clearing .deploy_git folder...
+INFO  Copying files from public folder...
+[master 8fed04a] Site updated: 2019-11-19 01:58:56
+ 5 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 404.html
+ create mode 100644 CNAME_BACKUP
+ create mode 100644 README.md
+ create mode 100644 index.html
+ create mode 100644 time.html
+To git@github.com:pq1949/pq1949.github.io.git
+   1663974..8fed04a  HEAD -> master
+Branch master set up to track remote branch master from git@github.com:pq1949/pq1949.github.io.git.
+INFO  Deploy done: git
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   source/time.md
+#
+no changes added to commit (use "git add" and/or "git commit -a")
